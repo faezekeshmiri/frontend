@@ -1,11 +1,84 @@
 <!DOCTYPE html>
-<<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>hello world</title>
-  </head>
-  <body>
-    <p>hello world:))))))))))</p>
-  </body>
+<html lang="en">
+<head>
+  <title>lawmingo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+.navbar{
+  margin-bottom: 0;
+ background-color:#343434;
+ z-index: 9999;
+ border: 0;
+ font-size: 12px !important;
+ line-height: 1.42857143 !important;
+ letter-spacing: 4px;
+ border-radius: 0;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff ;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #ffffff !important;
+  background-color: #343434 !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #ffffff !important;
+}
+.jumbotron{
+  background-color: #343434;
+  color: #ffffff;
+}
+.margin-button{
+  margin-top: 20px;
+}
+.sign-up{
+  width: 200px;
+  height: 40px;
+}
+.log-in{
+  width: 90px;
+  height: 35px;
+}
+
+</style>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header navbar-right">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Logo</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#pricing">PRICING</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron text-center">
+  <h1>lawmingo</h1>
+  <p>We specialize in blablabla</p>
+  <div>
+  <button type="button" class="btn btn-default margin-button sign-up">sign up</button>
+</div>
+<div>
+  <button type="button" class="btn btn-default margin-button log-in">log in</button>
+</div>
+</div>
+</body>
 </html>
